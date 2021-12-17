@@ -1,2 +1,1 @@
-
-del Student_Names[-3]
+combined_list = Student_Names + List
