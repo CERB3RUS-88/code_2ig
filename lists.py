@@ -61,4 +61,3 @@ print("                                              ")
 combined_list = Student_Names + List
 print(combined_list)
 print("                                              ")
-print("GG")
