@@ -60,4 +60,3 @@ print("                                              ")
 # Combining the lists
 combined_list = Student_Names + List
 print(combined_list)
-print("                                              ")
