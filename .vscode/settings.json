@@ -5,5 +5,7 @@
         "typeinfo": "cpp",
         "sstream": "cpp",
         "ostream": "cpp"
-    }
+    },
+    "editor.fontSize": 20,
+    "editor.wordWrap": "on"
 }
