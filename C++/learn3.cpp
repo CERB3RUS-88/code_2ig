@@ -3,25 +3,25 @@ using namespace std;
 int main()
 {
     int num1 = 4, num2 = 5;
-    // cout<<"Enter the value of number 1: \n";// '<<' is called insertion operator
+    cout<<"Enter the value of number 1: \n";// '<<' is called insertion operator
 
-    // cin>>num1;
+    cin>>num1;
 
-    // cout << "Enter the value of number 2: \n"; // '>>' is called exraction operator
+    cout << "Enter the value of number 2: \n"; // '>>' is called exraction operator
 
-    // cin>>num2;
+    cin>>num2;
 
-    // cout<<"The sum is "<<num1+num2<<endl;
-    // cout<<"The difference is "<<num1-num2<<endl;
-    // cout<<"The product is "<<num1*num2<<endl;
-    // cout<<"The quotient is "<<num1/num2<<endl;
-    // cout<<"The remainder is "<<num1%num2<<endl;
-    cout<<"The value of num1++ is "<<num1++<<endl;
-    cout<<"The value of num1-- is "<<num1--<<endl;
-    cout<<"The value of --num1 is "<<--num1<<endl;
+    cout<<"The sum is "<<num1+num2<<endl;
+    cout<<"The difference is "<<num1-num2<<endl;
+    cout<<"The product is "<<num1*num2<<endl;
+    cout<<"The quotient is "<<num1/num2<<endl;
+    cout<<"The remainder is "<<num1%num2<<endl;
+    // cout<<"The value of num1++ is "<<num1++<<endl;
+    // cout<<"The value of num1-- is "<<num1--<<endl;
+    // cout<<"The value of --num1 is "<<--num1<<endl;
     // cout<<"The value of ++num1 is "<<++num1<<endl;
 
-
+    
 // *Comparison operator examples:
 //"the value of a==b is"<<(a==b);
 //"the value of a>b is"<<(a>b);

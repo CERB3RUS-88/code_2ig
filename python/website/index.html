@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Organize your stuff and plan future tasks with a pomodoro timer</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Task List</h1>
+        <input type="text" placeholder="Enter task" id="task-input">
+        <button onclick="addTask()">Add task</button>
+        <ul id="task-list">
+            <!-- Task items will be added dynamically here -->
+        </ul>
+    </div>
+
+    <div class="container">
+        <h1>Pomodoro Timer</h1>
+        <div id="timer">
+            <h2 id="timer-display">25:00</h2>
+            <button onclick="startTimer()">Start</button>
+            <button onclick="stopTimer()">Stop</button>
+            <button onclick="resetTimer()">Reset</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

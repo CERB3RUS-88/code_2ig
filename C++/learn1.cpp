@@ -1,8 +1,15 @@
-// basic structure of a c++ program
-#include <iostream>
+#include<iostream>
 using namespace std;
-int main()
-{
-    cout << "Hello World";
-    return (0);
+
+int main (){
+    int amt1;
+    cin>>amt1;
+
+    int amt2;
+    cin>>amt2;
+
+    int sum=amt1+amt2;
+    cout<<sum;
+    return 0;
+
 }

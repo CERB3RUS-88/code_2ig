@@ -1,43 +1,61 @@
-# x = int(input("Enter value of x:  "))
-# y = int(input("Enter value of y: "))
-# print(f"value of x is {x}")
-# print(f"value of y is {y}")
-# print("After Swapping:")
-# z = x
-# x = y
-# y = z
+# n = int(input("no. of elements: "))
+# for i in range(n):
+#     e = input("Enter the elements: ")
+#     list = [e]
+#     print(list)
+# f = input("Enter the element to search: ")
+# g = (list.index(f))
+# print(g)
+# wronggg
 
-# print("Value of x:", x)
-# print("Value of y:", y)
-
-
-# CP = int(input("Enter Cost price:  "))
-# SP = int(input("Enter Selling price:  "))
-# if (CP == SP):
-#     print("There is no loss or profit")
-# elif (CP < SP):
-#     profit = SP-CP
-#     print(f"You have gained profit of {profit} rupees")
+# list = []
+# e = input("Would you like to input (numbers) as elements or (strings)?: ")
+# if e == "numbers":
+#     print("Enter elements to add in the list: ")
+#     for i in range(5):
+#         value = int(input())
+#         list.append(value)
+#     print("Enter an element to search in the created list: ")
+#     element = int(input())
+#     for i in range(5):
+#         if element == list[i]:
+#             print("Element is at Index:", i)
+#             print("Element is at Position:", i+1)
 # else:
-#     loss = CP-SP
-#     print(f"You have lost a total of {loss} rupees")
+#     print("Enter elements to add in the list: ")
+#     for i in range(5):
+#         value = (input())
+#         list.append(value)
+#     print("Enter an element to search in the created list: ")
+#     element = (input())
+#     for i in range(5):
+#         if element == list[i]:
+#             print("Element found at Index:", i)
+#             print("Element found at Position:", i+1)
+# OH YEASSS I DID IT
 
-# list1 = ["Audi", "Mercedes", "Tesla", "Jaguar"]
-# print(list1)
-# list1.insert(2, "Hyundai")
-# list1.remove("Jaguar")
-# print(list1)
-
-
-# num1 = int(input("Enter number 1:  "))
-# num2 = int(input("Enter number 2:  "))
-
-# if num1 > num2:
-#     print("Number 1 is the largest")
-# else:
-#     print("Number 2 is the largest")
-
-
-name = input("Enter your name:  ")
-fav_sport = input("Enter your favourite sport:  ")
-print(f"{name} likes to play {fav_sport}")
+list = []
+e = input("Would you like to input (numbers) as elements or (strings)?: ")
+n = int(input("Enter number of elements to add in the list: "))
+if e == "numbers":
+    print("Enter elements to add in the list: ")
+    for i in range(n):
+        value = int(input())
+        list.append(value)
+    print("Enter an element to search in the created list: ")
+    element = int(input())
+    for i in range(n):
+        if element == list[i]:
+            print("Element is at Index:", i)
+            print("Element is at Position:", i+1)
+else:
+    print("Enter elements to add in the list: ")
+    for i in range(n):
+        value = (input())
+        list.append(value)
+    print("Enter an element to search in the created list: ")
+    element = (input())
+    for i in range(n):
+        if element == list[i]:
+            print("Element found at Index:", i)
+            print("Element found at Position:", i+1)
