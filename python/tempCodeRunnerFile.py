@@ -1,8 +1,7 @@
-n = 5
-
-for i in range(n):
-    for j in range(i):
-        print(end='')
-    for j in range(n-i):
-        print(j+1, end='')
-    print()
+n = input("Enter a string: ")
+mid_String = input("enter mid string: ")
+lst = n.split()
+middle = len(lst)//2 
+k = lst[0:middle] + [mid_String] + lst[middle:]
+k = ' '.join(k)
+print(k)
