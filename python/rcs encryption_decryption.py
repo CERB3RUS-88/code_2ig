@@ -38,7 +38,6 @@ while r % 2 != 0:
 
 print(list1)
 
-# To avoid large number computations, use modular arithmetic and integer operations
 f1 = (pow(s, r // 2, enkey) + 1) % enkey
 f2 = (pow(s, r // 2, enkey) - 1) % enkey
 
